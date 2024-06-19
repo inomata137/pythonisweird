@@ -1,5 +1,12 @@
 [tool.poetry]
-package-mode = false
+name = "pythonisweird"
+version = "0.1.0"
+description = ""
+authors = ["inomata137"]
+
+packages = [
+  { include = "pythonisweird" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
